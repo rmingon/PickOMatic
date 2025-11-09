@@ -6244,7 +6244,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:RAYEX-L90"
+		(symbol "Relay:G5Q-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6257,7 +6257,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RAYEX-L90"
+			(property "Value" "G5Q-1"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -6266,7 +6266,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -6276,8 +6276,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-				(at 8.89 25.4 0)
+			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power relay, SPDT, 30A"
+			(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6295,7 +6295,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "30A Single Pole Relay"
+			(property "ki_keywords" "Miniature Single Pole Relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6304,7 +6304,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*RAYEX*L90*"
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5Q*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6313,34 +6313,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "RAYEX-L90_1_0"
+			(symbol "G5Q-1_0_0"
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
 					)
 					(stroke
 						(width 0)
@@ -6351,7 +6327,7 @@
 					)
 				)
 			)
-			(symbol "RAYEX-L90_1_1"
+			(symbol "G5Q-1_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -6460,7 +6436,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -6506,9 +6482,11 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "G5Q-1_1_1"
 				(pin passive line
-					(at -5.08 10.16 270)
-					(length 5.08)
+					(at -5.08 7.62 270)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -6516,7 +6494,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6525,8 +6503,8 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 5.08)
+					(at -5.08 -7.62 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -6534,7 +6512,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6543,8 +6521,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 10.16 270)
-					(length 5.08)
+					(at 2.54 7.62 270)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -6552,7 +6530,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6561,8 +6539,8 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
+					(at 5.08 -7.62 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -6570,7 +6548,7 @@
 							)
 						)
 					)
-					(number "11A"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6579,9 +6557,8 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(hide yes)
+					(at 7.62 7.62 270)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -6589,25 +6566,7 @@
 							)
 						)
 					)
-					(number "11B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7936,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 356.87) (xy 377.19 358.14)
+			(xy 377.19 356.87) (xy 377.19 360.68)
 		)
 		(stroke
 			(width 0)
@@ -8106,6 +8065,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 356.87) (xy 389.89 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162507f6-6464-4e18-ad20-aaea86303d0f")
+	)
+	(wire
+		(pts
 			(xy 377.19 334.01) (xy 377.19 336.55)
 		)
 		(stroke
@@ -8216,16 +8185,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 292.1) (xy 389.89 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e565f33-0e8f-4dee-88be-a8cffc93f6bb")
-	)
-	(wire
-		(pts
 			(xy 425.45 128.27) (xy 426.72 128.27)
 		)
 		(stroke
@@ -8266,7 +8225,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 316.23) (xy 387.35 313.69)
+			(xy 387.35 311.15) (xy 387.35 316.23)
 		)
 		(stroke
 			(width 0)
@@ -8836,16 +8795,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 381) (xy 387.35 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38bfacba-2c80-4975-9eb1-a025a3156efb")
-	)
-	(wire
-		(pts
 			(xy 361.95 322.58) (xy 361.95 325.12)
 		)
 		(stroke
@@ -8963,6 +8912,16 @@
 			(type default)
 		)
 		(uuid "3e68b3eb-d140-4843-9715-6686ec24b0e4")
+	)
+	(wire
+		(pts
+			(xy 389.89 292.1) (xy 389.89 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e77fe54-8f7e-4ea5-8510-b5972dcbf588")
 	)
 	(wire
 		(pts
@@ -9233,16 +9192,6 @@
 			(type default)
 		)
 		(uuid "51bfb98d-a9b4-4cba-9dc0-36b491c25874")
-	)
-	(wire
-		(pts
-			(xy 384.81 354.33) (xy 384.81 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f35b41-b659-4d23-ac68-7909be8971ff")
 	)
 	(wire
 		(pts
@@ -9966,6 +9915,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 354.33) (xy 384.81 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72225a6b-5b17-4f4a-b2b2-b0470e7d577f")
+	)
+	(wire
+		(pts
 			(xy 177.8 119.38) (xy 187.96 119.38)
 		)
 		(stroke
@@ -9983,16 +9942,6 @@
 			(type default)
 		)
 		(uuid "7232c9bf-63f7-46b4-b928-b45ba34edeb0")
-	)
-	(wire
-		(pts
-			(xy 384.81 289.56) (xy 384.81 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e71045-8649-4e06-9e10-b662afee0987")
 	)
 	(wire
 		(pts
@@ -10326,7 +10275,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 313.69) (xy 377.19 314.96)
+			(xy 377.19 311.15) (xy 377.19 314.96)
 		)
 		(stroke
 			(width 0)
@@ -10546,6 +10495,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 375.92) (xy 377.19 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96407266-012d-4928-94b0-d005d8f1c8ee")
+	)
+	(wire
+		(pts
 			(xy 365.76 72.39) (xy 381 72.39)
 		)
 		(stroke
@@ -10663,6 +10622,16 @@
 			(type default)
 		)
 		(uuid "9b92940e-5734-4276-9fd3-3580ed21a2d6")
+	)
+	(wire
+		(pts
+			(xy 387.35 375.92) (xy 387.35 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c15829c-b1b6-4dbc-bf62-e4fc459dff24")
 	)
 	(wire
 		(pts
@@ -10956,16 +10925,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 378.46) (xy 377.19 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b9d1e7-a04b-41ec-9878-2a69768ba25a")
-	)
-	(wire
-		(pts
 			(xy 508 323.85) (xy 501.65 323.85)
 		)
 		(stroke
@@ -11023,16 +10982,6 @@
 			(type default)
 		)
 		(uuid "a7328ddf-41c2-4d69-9c4b-fc051f028b6e")
-	)
-	(wire
-		(pts
-			(xy 389.89 356.87) (xy 389.89 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a777c0b3-7c5f-4b8c-9b48-6d552e0eeec7")
 	)
 	(wire
 		(pts
@@ -11116,16 +11065,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 292.1) (xy 377.19 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf59974-1237-4455-9110-9107fefe1953")
-	)
-	(wire
-		(pts
 			(xy 501.65 243.84) (xy 501.65 245.11)
 		)
 		(stroke
@@ -11173,6 +11112,16 @@
 			(type default)
 		)
 		(uuid "ae89b602-f227-4426-ad94-374cdafcbefd")
+	)
+	(wire
+		(pts
+			(xy 384.81 289.56) (xy 384.81 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb0f664-82a5-4772-9155-ea7dc4972b1b")
 	)
 	(wire
 		(pts
@@ -11533,6 +11482,16 @@
 			(type default)
 		)
 		(uuid "bb04190c-40c7-4c21-8b27-5515892c0414")
+	)
+	(wire
+		(pts
+			(xy 377.19 292.1) (xy 377.19 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc216ebe-46c8-4f16-971d-7d37b1f7e380")
 	)
 	(wire
 		(pts
@@ -17308,90 +17267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 382.27 368.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27f6e5b7-d98a-4cb2-af13-b7650c4cb4c7")
-		(property "Reference" "K1"
-			(at 393.7 367.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 393.7 369.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
-			(at 393.7 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 391.16 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 382.27 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11A"
-			(uuid "1c820357-b88f-4252-8d46-af43acd7be6e")
-		)
-		(pin "12"
-			(uuid "549d3886-2e14-44cb-8c25-574daa4985a9")
-		)
-		(pin "11B"
-			(uuid "14793f03-9f26-482c-853a-1e68ba4da2c4")
-		)
-		(pin "14"
-			(uuid "31e83abe-1a2b-4b27-a9d5-c1a477afe6d5")
-		)
-		(pin "A2"
-			(uuid "628284fe-9f98-4ec9-8b23-43b4c2a3b76a")
-		)
-		(pin "A1"
-			(uuid "be115203-43ab-4e6f-9e9c-21b98139ce17")
-		)
-		(instances
-			(project "hardware"
-				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 381 210.82 90)
 		(unit 1)
@@ -18229,90 +18104,6 @@
 			(project "hardware"
 				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 382.27 303.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f72e90d-859a-45cc-825b-f5f26c74b642")
-		(property "Reference" "K2"
-			(at 393.7 302.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 393.7 304.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
-			(at 393.7 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 391.16 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 382.27 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11A"
-			(uuid "0d5797e8-f815-4cc2-87e9-3d3ede18ed44")
-		)
-		(pin "12"
-			(uuid "be6914f6-f733-4a49-a287-8947831a0db8")
-		)
-		(pin "11B"
-			(uuid "2a317401-49f4-40f2-a8fc-c3ab5338c626")
-		)
-		(pin "14"
-			(uuid "c98daf05-62db-43c4-a299-0d8713246586")
-		)
-		(pin "A2"
-			(uuid "7131a356-500f-4278-9c51-f3af8a33c861")
-		)
-		(pin "A1"
-			(uuid "090a3424-a462-481c-b862-91a602a2bd10")
-		)
-		(instances
-			(project "hardware"
-				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -20556,7 +20347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
 			(at 416.56 304.8 0)
 			(effects
 				(font
@@ -22789,6 +22580,87 @@
 			(project "hardware"
 				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G5Q-1")
+		(at 382.27 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656d222f-c2f6-45f8-b028-cb3632732f46")
+		(property "Reference" "K1"
+			(at 393.7 367.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5Q-1"
+			(at 393.7 369.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+			(at 393.7 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+			(at 382.27 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 382.27 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7abc9a9-3f6d-40ff-9c5b-f0488a7fe566")
+		)
+		(pin "5"
+			(uuid "b5a11602-9ff1-4ed2-a268-ef554ed0c620")
+		)
+		(pin "3"
+			(uuid "fb3fa997-053c-4a42-b95e-08088a37ca59")
+		)
+		(pin "2"
+			(uuid "b39f9d25-d77c-4286-b7f2-131b09ce7e0d")
+		)
+		(pin "4"
+			(uuid "47648555-35f7-4c54-9a0b-2124917bc004")
+		)
+		(instances
+			(project "hardware"
+				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -26059,7 +25931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
 			(at 416.56 369.57 0)
 			(effects
 				(font
@@ -32511,6 +32383,87 @@
 			(project "hardware"
 				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G5Q-1")
+		(at 382.27 303.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da24153e-8c4d-4947-9d75-74a5f2247fb6")
+		(property "Reference" "K3"
+			(at 393.7 302.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5Q-1"
+			(at 393.7 304.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+			(at 393.7 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+			(at 382.27 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 382.27 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf6c478-b15d-487b-8b30-ab56dc3848eb")
+		)
+		(pin "5"
+			(uuid "19734e22-e716-46b8-a1ea-792d1c7e5d42")
+		)
+		(pin "3"
+			(uuid "9c9a516d-97ee-4ba6-8eda-43a78717a8a8")
+		)
+		(pin "2"
+			(uuid "ba6a79e4-f7b1-40b0-bc2d-33e10552c592")
+		)
+		(pin "4"
+			(uuid "d9939576-564f-4484-8278-4221312b3dac")
+		)
+		(instances
+			(project ""
+				(path "/0541aaff-cb3e-4236-a914-dbfc9ce2a77a"
+					(reference "K3")
 					(unit 1)
 				)
 			)
